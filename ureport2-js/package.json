@@ -4,7 +4,8 @@
   "description": "ureport2.0 designer base on web and some web ui",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --colors --devtool source-map"
   },
   "keywords": [
     "report"
@@ -41,6 +42,8 @@
     "file-loader": "^0.9.0",
     "style-loader": "^0.13.1",
     "uglifyjs-webpack-plugin": "^1.2.4",
-    "url-loader": "^0.5.7"
+    "url-loader": "^0.5.7",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   }
 }

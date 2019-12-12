@@ -14,6 +14,7 @@ module.exports={
         path:path.resolve('../ureport2-console/src/main/resources/ureport-asserts/js'),
         filename:'[name].bundle.js'
     },
+    devtool: 'cheap-module-eval-source-map',
     optimization: {
         splitChunks: {
             cacheGroups: {
